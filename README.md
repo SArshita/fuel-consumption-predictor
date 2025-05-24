@@ -12,13 +12,17 @@ Welcome to the Fuel Consumption Predictor project! This machine learning app est
 ## Folder Structure
 
 fuel-consumption-predictor/
-├── streamlit_app.py # Streamlit app source code
 ├── data/
-│ └── heavy_vehicle_data.csv # Dataset used for training
+│   └── heavy_vehicle_data.csv        # CSV dataset for training and visualization
 ├── models/
-│ └── fuel_model.pkl # Trained machine learning model
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+│   └── fuel_model.pkl                # Trained ML model (serialized with joblib)
+├── src/
+│   └── train_model.py                # Script to train and save the ML model
+├── .gitignore                        # Specifies files/folders to ignore in Git
+├── generate_data.py                  # Script to generate synthetic dummy data
+├── README.md                         # Project overview and usage documentation
+├── requirements.txt                  # List of Python dependencies
+└── streamlit_app.py                  # Main Streamlit application for user interaction
 
 ---
 
@@ -34,7 +38,7 @@ fuel-consumption-predictor/
 
 1. **Clone this repository:**
    bash
-   git clone https://github.com/yourusername/fuel-consumption-predictor.git
+   git clone https://github.com/SArshita/fuel-consumption-predictor.git
    cd fuel-consumption-predictor
 
 2. (Optional) Create a virtual environment:
