@@ -9,20 +9,7 @@ Welcome to the Fuel Consumption Predictor project! This machine learning app est
 - **Detailed visuals** include feature distributions, scatter plots, and model-based feature importance.
 - Easy to run locally or deploy on Streamlit Cloud.
 
-## Folder Structure
-
-fuel-consumption-predictor/
-├── data/
-│   └── heavy_vehicle_data.csv        # CSV dataset for training and visualization
-├── models/
-│   └── fuel_model.pkl                # Trained ML model (serialized with joblib)
-├── src/
-│   └── train_model.py                # Script to train and save the ML model
-├── .gitignore                        # Specifies files/folders to ignore in Git
-├── generate_data.py                  # Script to generate synthetic dummy data
-├── README.md                         # Project overview and usage documentation
-├── requirements.txt                  # List of Python dependencies
-└── streamlit_app.py                  # Main Streamlit application for user interaction
+<pre lang="markdown"> ```markdown ## Folder Structure fuel-consumption-predictor/ ├── data/ │ └── heavy_vehicle_data.csv # CSV dataset for training and visualization ├── models/ │ └── fuel_model.pkl # Trained ML model (serialized with joblib) ├── src/ │ └── train_model.py # Script to train and save the ML model ├── .gitignore # Specifies files/folders to ignore in Git ├── generate_data.py # Script to generate synthetic dummy data ├── README.md # Project overview and usage documentation ├── requirements.txt # List of Python dependencies └── streamlit_app.py # Main Streamlit application for user interaction ``` </pre>
 
 ---
 
